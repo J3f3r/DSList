@@ -35,6 +35,8 @@ public class Game {
 		
 	}
 
+	
+
 	public Game(Long id, String title, Integer yaer, String genre, String platforms, Double score, String imgUrl,
 			String shortDescription, String longDescription) {
 		super();
@@ -48,6 +50,8 @@ public class Game {
 		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
 	}
+
+
 
 	public Long getId() {
 		return id;
