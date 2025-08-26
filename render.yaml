@@ -3,6 +3,7 @@ services:
     name: dslist-backend
     plan: free
     branch: main
+    runtime: java
     buildCommand: ./mvnw clean package -DskipTests
     startCommand: java -jar target/*.jar
     envVars:
