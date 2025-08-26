@@ -1,7 +1,6 @@
 services:
   - type: web
     name: dslist-backend
-    runtime: java21
     plan: free
     branch: main
     buildCommand: ./mvnw clean package -DskipTests
